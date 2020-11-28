@@ -1,0 +1,42 @@
+{% extends 'base.html'%} {% block content %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"> {% if title %}
+    <title> {{ article_id }}</title>
+    {% else %}
+    <title> News Center </title>
+    {% endif %}
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h2 class="text-center">Trending News Headlines</h2>
+        <div class="row">
+
+            {% for article in article %}
+            <div class="panel panel-default" style="box-shadow: 5px 10px #888888;">
+                <div class="panel-body">
+                    <div class="col-md-8" style="padding-top: 30px;">
+
+                        <img src="{{article.urlToImage}}" width="600px" alt="">
+                    </div>
+                    <div class="col-md-4" style="padding-top: 50px;">
+                        <p style="font-size: 25px;">{{article.description}}</p>
+                        <a href="{{ article.url}}" class="btn btn-outline-success">More Details</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+{% endblock %}
