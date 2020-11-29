@@ -10,7 +10,7 @@ This an application that that will help a user list and preview news articles fr
 https://github.com/Steve99-coder/News-Api
 
 ### LIVE LINK
-
+https://the-news-api.herokuapp.com/
 
 ### SPECIFICATIONS
 As a user you can:
