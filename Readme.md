@@ -6,20 +6,20 @@ Stephen Nderitu
 ### DESCRIPTION
 This an application that that will help a user list and preview news articles from various sources.This ranges from business news to various kinds of sources of news.  
 
-## GITHUB LINK
+### GITHUB LINK
 https://github.com/Steve99-coder/News-Api
 
 ### LIVE LINK
 
 
-## SPECIFICATIONS
+### SPECIFICATIONS
 As a user you can:
 * see various news sources on the homepage of the application.
 * select a news source and see all news articles from the selected news source in the application.
 * see the image, description and the time a news article was created.
 * click on an article and read the full article on the source website.
 
-## LANGUAGE USED
+### LANGUAGE USED
 * Python3.6
 * Flask
 * bootstrap
