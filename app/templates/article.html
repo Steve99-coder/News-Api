@@ -16,12 +16,13 @@
     <div class="container">
 
         <h2 class="text-center">Trending News Headlines</h2>
-        <div class="row">
 
-            {% for article in article %}
-            <div class="panel panel-default" style="box-shadow: 5px 10px #888888;">
-                <div class="panel-body">
-                    <div class="col-md-8" style="padding-top: 30px;">
+        {% for article in article %}
+        <div class="panel panel-default" style="box-shadow: 5px 10px #0e0d0d;">
+            <div class="panel-body">
+                <div class="row">
+
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="padding-top: 50px;">
 
                         <img src="{{article.urlToImage}}" width="600px" alt="">
                     </div>
